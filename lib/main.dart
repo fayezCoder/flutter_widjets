@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-
-import 'flutter_widjets/container.dart';
+import 'package:flutter_widjets/flutter_widjets/card.dart';
+import 'package:flutter_widjets/flutter_widjets/expanded_column.dart';
+import 'package:flutter_widjets/flutter_widjets/expanded_row.dart';
+import 'package:flutter_widjets/flutter_widjets/icon.dart';
+import 'package:flutter_widjets/flutter_widjets/stack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyContainer(),
+      home: const MyIcon(),
     );
   }
 }
