@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widjets/flutter_widjets/card.dart';
+import 'package:flutter_widjets/flutter_widjets/column.dart';
 import 'package:flutter_widjets/flutter_widjets/expanded_column.dart';
 import 'package:flutter_widjets/flutter_widjets/expanded_row.dart';
 import 'package:flutter_widjets/flutter_widjets/icon.dart';
+import 'package:flutter_widjets/flutter_widjets/row.dart';
 import 'package:flutter_widjets/flutter_widjets/stack.dart';
 
 void main() {
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyIcon(),
+      home: const MyRow(),
     );
   }
 }
