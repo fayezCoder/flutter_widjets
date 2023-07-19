@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widjets/flutter_widjets/card.dart';
-import 'package:flutter_widjets/flutter_widjets/column.dart';
-import 'package:flutter_widjets/flutter_widjets/expanded_column.dart';
-import 'package:flutter_widjets/flutter_widjets/expanded_row.dart';
-import 'package:flutter_widjets/flutter_widjets/icon.dart';
-import 'package:flutter_widjets/flutter_widjets/row.dart';
-import 'package:flutter_widjets/flutter_widjets/stack.dart';
+import 'package:flutter_widjets/flutter_widjets/gesture_detector.dart';
+import 'package:flutter_widjets/flutter_widjets/inkwell.dart';
+import 'package:flutter_widjets/flutter_widjets/stateful_widjet.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyRow(),
+      home: const MyStatfulWidjet(),
     );
   }
 }
