@@ -12,15 +12,19 @@ class MyGestureDetector extends StatelessWidget {
       body: Center(
         child: GestureDetector(
           onTap: () {
+            // ignore: avoid_print
             print("Tap");
           },
           onTapUp: (tap) {
+            // ignore: avoid_print
             print("Up");
           },
           onTapDown: (tap) {
+            // ignore: avoid_print
             print("Down");
           },
           onTapCancel: () {
+            // ignore: avoid_print
             print("Cancel");
           },
           child: Container(

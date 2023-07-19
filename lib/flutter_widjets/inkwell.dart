@@ -11,11 +11,12 @@ class MyInkWell extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
       body: Center(
         //inkwell is used to create a custom button from zero.or image .
         child: InkWell(
+          // ignore: avoid_print
           onTap: () => print("Fayez Coder"),
           child: Container(
             decoration: BoxDecoration(
